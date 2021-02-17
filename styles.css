@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    height: 100%;
+    background-image: url("panda.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 192, 203);
+}
+
+h1 {
+    text-align: center;
+    font-size: 40;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 14;
+    position: absolute;
+    color:rgb(255, 16, 243)
+}
+
+img {
+    position: absolute;
+    top: -20px;
+}
+
+a:link {
+    color:green;
+}
+
+a:visited {
+    color:rgb(255, 192, 203);
+}
+
+a:hover {
+    color:rgb(15, 230, 122)
+}
+
+a:active {
+    color:slateblue;
+}
+
+#space {
+    width: 100%;
+    padding: 500px;
+    text-align: center;
+}
+
+#link {
+    position: absolute;
+    font-size: 25px;
+}
